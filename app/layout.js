@@ -27,14 +27,9 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" type="image/png" href="/icon.png" />
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable}`} style={{backgroundColor: '#80a4938c'}}>
         {/* Navigation Bar */}
-        <nav style={{width: '100%', height: '50px', padding: '1%', display: 'flex', justifyContent:'flex-end', alignItems: 'center', backgroundColor: 'teal' }}>
-          <Link href = {'/'} style = {{margin: '30px'}}>Home</Link>
-          <Link href = {'/about'} style = {{margin: '30px'}}>About</Link>
-          <Link href = {'/projects'} style = {{margin: '30px'}}>Projects</Link>
-          <Link href = {'/contact'} style = {{margin: '30px'}}>Contact</Link>
-        </nav>
+
         <NavBar />
         {/* Routes */}
         {children}

@@ -1,4 +1,9 @@
 .form{
     margin: auto !important;
+    margin-bottom: 100px !important;
     width: 30%;
+}
+
+.form h3 {
+    margin: 40px;
 }

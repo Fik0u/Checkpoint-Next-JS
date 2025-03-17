@@ -6,7 +6,7 @@ import './contactForm.css'
 const ContactForm = () => {
   return (
     <div className='form'>
-      <h3>This is a contact form</h3>
+      <h3>Contact Me</h3>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
