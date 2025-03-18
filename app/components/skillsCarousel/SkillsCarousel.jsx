@@ -11,10 +11,7 @@ const SkillsCarousel = () => {
 
       <Carousel>
       <Carousel.Item>
-        <img src='https://www.nemesis-studio.com/wp-content/uploads/2017/07/front-back-end.png?v=1637161606' alt='full-stack' text="First slide" style={{height: '550px', width: '100%', borderRadius: '20px'}}/>
-        <Carousel.Caption style={{color: 'black'}}>
-          <h3 >Full-Stack Web Development</h3>
-        </Carousel.Caption>
+        <img src='https://imarticus.org/blog/wp-content/uploads/2019/03/fl.png' alt='full-stack' text="First slide" style={{height: '550px', width: '100%', borderRadius: '20px'}}/>
       </Carousel.Item>
 
       <Carousel.Item>
