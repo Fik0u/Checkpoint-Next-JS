@@ -14,7 +14,7 @@ const ProjectCard = () => {
       <Card.Img variant="top" src= '/assets/landingTravel.png' />
         <Card.Title style={{margin: '20px'}}> Landing Travel </Card.Title>
         <Card.Text> This is one of my first projects, that i was really proud to make. It was about a landing page for a travel agency. This page was made with a responsive design using Bootstrap CSS. </Card.Text>
-        <Button variant="primary" href=''>Check it Out</Button>
+        <Button variant="primary" href='landingtravelfik.netlify.app'>Check it Out</Button>
       </Card.Body>
     </Card>
 
@@ -25,7 +25,7 @@ const ProjectCard = () => {
       <Card.Img variant="top" src='/assets/checkMate.png' />
         <Card.Title style={{margin: '20px'}}> CheckMate </Card.Title>
         <Card.Text> I made this to-do list with React JS, a UI framework at its best. Its basic functionnality is to add tasks and change their state from done to undone and vice-versa</Card.Text>
-        <Button variant="primary" href=''>Check it Out</Button>
+        <Button variant="primary" href='https://github.com/Fik0u/Checkpoint-Managing-State-in-React.git'>Check it Out</Button>
       </Card.Body>
     </Card>
 
@@ -35,7 +35,7 @@ const ProjectCard = () => {
       <Card.Img variant="top" src='/assets/moovy.png'/>
         <Card.Title style={{margin: '20px'}}> Moovy </Card.Title>
         <Card.Text> This is a simple movie app that I created that allows the user or the client to add a movie to the list and filter them, either by title or rate. </Card.Text>
-        <Button variant="primary" href=''>Check it Out</Button>
+        <Button variant="primary" href='https://github.com/Fik0u/Checkpoint-React-Hooks.git'>Check it Out</Button>
       </Card.Body>
     </Card>
     </div>
