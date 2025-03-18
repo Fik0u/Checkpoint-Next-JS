@@ -4,22 +4,13 @@ import ProjectCard from '../components/projectCard/ProjectCard'
 
 const Projects = () => {
 
-const [projList, setProjList] = useState([
-  {
-    name: 'Landing Travel',
-    url: 'landingtravelfik.netlify.app',
-  },
-  {
-    name: 'Glory Judicators',
-    url: 'gloryjudicators.netlify.app',
-  }
-])
+
 
   return (
-    <div>
+    <div style={{textAlign: 'center', margin:'40px'}}>
       <h1> My Projects</h1>
-      
-      {projList.map(proj => <ProjectCard proj = {proj} key = {proj.name}/>)}
+      <p>Here you'll find some of the projects that i made along my courses in web development</p>
+      <ProjectCard />
 
     </div>
   )

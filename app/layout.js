@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Link from "next/link";
+import './bootstrap.min.css';
 import Head from "next/head";
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/Footer";
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" type="image/png" href="/icon.png" />
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`} style={{backgroundColor: '#80a4938c'}}>
+      <body className={`${geistSans.variable} ${geistMono.variable}`} style={{backgroundColor: '#c2d4cb8c'}}>
         {/* Navigation Bar */}
 
         <NavBar />

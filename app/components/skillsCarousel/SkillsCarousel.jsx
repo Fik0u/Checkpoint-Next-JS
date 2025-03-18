@@ -14,7 +14,6 @@ const SkillsCarousel = () => {
         <img src='https://www.nemesis-studio.com/wp-content/uploads/2017/07/front-back-end.png?v=1637161606' alt='full-stack' text="First slide" style={{height: '550px', width: '100%', borderRadius: '20px'}}/>
         <Carousel.Caption style={{color: 'black'}}>
           <h3 >Full-Stack Web Development</h3>
-          {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -36,7 +35,7 @@ const SkillsCarousel = () => {
 
       <Carousel.Item>
         <img src='https://framerusercontent.com/images/iGqleKlzrTkgifOmGqWFgW4xU.png' alt='bootstrap/tailwind' text="Forth slide" style={{height: '550px', width: '100%', borderRadius: '20px'}}/>
-        <Carousel.Caption style={{color: 'black'}}>
+        <Carousel.Caption style={{color: 'white'}}>
           <h3>Bootstrap / Tailwind </h3>
           <p> CSS Frameworks for friendly, good-looking and responsive pages</p>
         </Carousel.Caption>

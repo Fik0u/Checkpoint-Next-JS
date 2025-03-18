@@ -2,6 +2,7 @@
 import { Button, Figure } from "react-bootstrap";
 import styles from "./page.module.css";
 
+
 export default function Home() {
   return (
 
